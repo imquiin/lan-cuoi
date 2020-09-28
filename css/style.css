@@ -1,0 +1,197 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Offside', cursive;}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	scroll-snap-type: y mandatory;
+}
+header{
+	width: 100%;
+	height: 50px;
+	background: white;
+	position: fixed;
+	opacity: 0.6;
+	z-index: 100;
+}
+.menu ul {
+	list-style: none;
+	text-align: center;
+	margin-top: 10px;
+}
+.menu ul li {
+	display: inline-block;
+	margin-right:10px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 22px;
+}
+.to{
+	width: 100%;
+	height: 100vh;
+	scroll-snap-align:start;
+}
+.active{
+	background:#FFD6D6 ;
+}
+.section-2 {
+	background: #FFB69B;
+	position: relative;
+}
+.section-3 {
+	background: #A299CA;
+	position: relative;
+}
+.section-4 {
+	background: #7CCAAE;
+	position: relative;
+}
+.section-1 {
+	background: #ECEC84;
+	position: relative;
+}
+.box1{
+	height: 100px;
+	width: 350px;
+	background: white;
+	border-radius: 10px;
+	position: absolute;
+	top:50%;
+	right: 300px;
+}
+.box1 li{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 33px;
+	color: black;
+	list-style: none;
+}
+.box1 li a{
+	text-decoration: none;
+	color: #cd6a01 }
+.box2{
+	height: 70px;
+	width: 300px;
+	background: white;
+	border-radius: 10px;
+	position: absolute;
+	top:50%;
+	left: 150px;
+}
+.box2 li {
+	font-size: 30px;
+	text-align: center;
+	padding-top: 18px;
+	color: black;
+	list-style: none;
+}
+.box2 li a{
+	text-decoration: none;
+	color: #cd6a01 }
+.box3{
+	height: 70px;
+	width: 300px;
+	background: white;
+	border-radius: 10px;
+	position: absolute;
+	top:50%;
+	right: 680px;
+}
+.box3 li{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 18px;
+	color: black;
+	list-style: none;
+}
+.box3 li a{
+	text-decoration: none;
+	color: #cd6a01 }
+.anh1 .png1{
+	position: absolute;
+	top:100px;
+	left: 100px;
+	height: 200px;
+}
+.anh1 .png2{
+	position: absolute;
+	top:100px;
+	left: 300px;
+	height: 700px;}
+.anh1 .png3{
+	position: absolute;
+	top:450px;
+	right: 30px;
+	height: 300px;}
+.anh2 .png1{
+	position: absolute;
+	top:230px;
+	left: 700px;
+	height: 500px;
+}
+.anh2 .png3{
+	position: absolute;
+	top:600px;
+	left: 150px;
+	height: 200px;}
+.anh2 .png2{
+	position: absolute;
+	top:10px;
+	right: 30px;
+	height: 300px;}
+.anh2 .png4{
+	position: absolute;
+	top:600px;
+	right: 50px;
+	height: 150px;}
+.anh3 .png2{
+	position: absolute;
+	top:100px;
+	left: 80px;
+	height: 150px;
+}
+.anh3 .png3{
+	position: absolute;
+	top:600px;
+	left: 150px;
+	height: 200px;}
+.anh3 .png1{
+	position: absolute;
+	top:10px;
+	right: 30px;
+	height: 200px;}
+.anh3 .png4{
+	position: absolute;
+	top:600px;
+	right: 50px;
+	height: 200px;}
+.anh4 .png5{
+	position: absolute;
+	top:70px;
+	height: 300px;
+	animation: bounce 3s linear infinite;
+}
+.anh4 h1{
+	position: absolute;
+	top:400px;
+	left: 42%;
+	color: #002D6B;
+	font-size: 50px;
+	animation: heartBeat 3s linear infinite;
+}
+.anh4 .png6{
+	position: absolute;
+	top:500px;
+	right: 50px;
+	animation: tada 3s linear infinite;
+}
+

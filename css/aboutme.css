@@ -1,0 +1,63 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{font-family: 'Offside', cursive;}
+
+.container{
+	width: 100%;
+	height: 100vh;
+}
+header{
+	width: 100%;
+	height: 50px;
+	background: white;
+	position: fixed;
+	opacity: 0.6;
+	z-index: 100;
+}
+.menu ul {
+	list-style: none;
+	text-align: center;
+	margin-top: 10px;
+}
+.menu ul li {
+	display: inline-block;
+	margin-right:10px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 22px;
+}
+.background{
+	background: #ECEC84;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.png1{
+	position: absolute;
+	top:50px;
+	left: 50px;
+	height: 700px;}
+.box{
+	position: absolute;
+	height: 500px;
+	width: 500px;
+	top: 180px;
+	right: 250px;
+}
+.box p{
+	font-size: 25px;
+	font-family: 'Redressed', cursive;
+	color: #1B0400;
+}
+.png2{
+	position: absolute;
+	top:450px;
+	left: 600px;
+	height: 200px;
+
+}

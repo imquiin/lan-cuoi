@@ -1,0 +1,68 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="css/picture.css">
+	<link href="https://fonts.googleapis.com/css2?family=Offside&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<nav class="menu">
+				<ul class="scroll-spy">
+					<li><a href="index.html#st1">ME</a></li>
+					<li><a href="index.html#st2">PICTURE</a></li>
+					<li><a href="index.html#st3">CONTACT</a></li>
+					<li><a href="index.html#st4">FUN</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="wapper">
+		<section class="section-1">
+			<div class="slider">
+			<!-- Set up your HTML -->
+				<div class="owl-carousel">
+				  <img src="img/IMG_20190426_151954.jpg" class ="item blue">
+				  <img src="img/IMG_0613.JPG" class="item red">
+				  <img src="img/IMG_1668.JPG" class="item yellow">
+				  <img src="img/IMG_2030.HEIC" class="item pink">
+				  <img src="img/IMG_3576.JPG" class="item deeppink">
+				  <img src="img/IMG_20190916_083304.JPG" class="item white">
+					<img src="img/IMG_20190206_153536.jpg" class="item orang">
+					<img src="img/beauty_20190308192711 (1).jpg" class="item green">
+					<img src="img/IMG_0202.JPG" class="item gray">
+					<img src="img/1970-01-01 08.00.00 4.jpg" class="item min">
+					<img src="img/1970-01-01 08.00.00 14.jpg" class="item black">
+				</div>
+				</div>
+		</section>
+			<img class="png1" src="img/giphy (3).gif">
+			<img class="png2" src="img/giphy (2).gif">
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script>
+		var owl = $('.owl-carousel');
+		owl.owlCarousel({
+			items:3,
+			loop:true,
+			margin:70,
+			autoplay:true,
+			autoplayTimeout:1000,
+			autoplayHoverPause:true
+		});
+		$('.play').on('click',function(){
+			owl.trigger('play.owl.autoplay',[1000])
+		})
+		$('.stop').on('click',function(){
+			owl.trigger('stop.owl.autoplay')
+		})
+	</script>
+		
+</body>
+	
+</html>

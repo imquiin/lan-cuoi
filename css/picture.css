@@ -1,0 +1,73 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Offside', cursive;}
+.container{
+	width: 100%;
+	height: 100vh;
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+}
+header{
+	width: 100%;
+	height: 50px;
+	background: white;
+	position: fixed;
+	opacity: 0.6;
+	z-index: 100;
+}
+.menu ul {
+	list-style: none;
+	text-align: center;
+	margin-top: 10px;
+}
+.menu ul li {
+	display: inline-block;
+	margin-right:10px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 22px;
+}
+.section-1{
+	width: 100%;
+	height: 800px;
+	background: #FFB69B;
+	position: relative;
+}
+.slider{
+	width: 88%;
+	height: 100vh;
+	margin-left: 6%;
+	padding-top: 50px;
+}
+.item{
+	height: 500px;
+	width: 300px;
+	background: orange;
+	margin-top: 100px;
+}
+img {
+	height:auto;
+	width: auto;
+}
+.png1{
+	position: absolute;
+	top:550px;
+	right: 30px;
+	height: 250px;
+	z-index: 100;
+	}
+.png2{
+	position: absolute;
+	top:50px;
+	left: 70px;
+	height: 120px;
+	z-index: 100;
+	}
